@@ -12,7 +12,7 @@ The central result is simple: **sequence context matters, but more diverse train
 
 TinyAMP developed around five questions:
 
-1. Does a causal Transformer model peptide sequences better than a bigram baseline?
+1. Does using longer-range sequence context improve peptide sequence prediction compared with a bigram baseline?
 2. How much does random train/test splitting overestimate generalization when closely related peptide sequences cross split boundaries?
 3. Does increasing Transformer capacity improve generalization on a similarity-aware split?
 4. Is overfitting better addressed by stronger dropout or by more training data?
