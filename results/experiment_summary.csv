@@ -1,0 +1,6 @@
+experiment,label,split,parameters,test_loss,test_perplexity,sd,figure_group
+v0.1,Bigram random,random,484,2.8617,17.49,,
+v1,Small random,random,106624,2.3459,10.44,,
+v1.4,Bigram,similarity-aware,484,2.8462,17.22,,family_models
+v1.6,Small,similarity-aware,106624,,12.68,0.15,family_models
+v1.6,Medium,similarity-aware,805632,,12.62,0.17,family_models

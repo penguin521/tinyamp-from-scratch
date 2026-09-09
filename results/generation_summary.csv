@@ -1,0 +1,3 @@
+group,mean_length,median_length,hydrophobic_fraction,charge_balance,n
+Real APD,34.4,29,0.405,3.44,3306
+Generated,33.21,28,0.407,3.27,3000

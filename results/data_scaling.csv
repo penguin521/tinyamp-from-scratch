@@ -1,0 +1,9 @@
+model,fraction_pct,n_train,mean_test_perplexity,sd,mean_best_step
+Small,25,661,15.46,0.2,250
+Small,50,1322,14.08,0.19,667
+Small,75,1983,13.25,0.1,1750
+Small,100,2644,12.68,0.15,2500
+Medium,25,661,16.54,0.06,250
+Medium,50,1322,14.02,0.23,250
+Medium,75,1983,13.36,0.06,667
+Medium,100,2644,12.62,0.17,917

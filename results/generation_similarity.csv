@@ -1,0 +1,4 @@
+reference,mean,median,max,ge80_pct,ge90_pct
+Train,0.449,0.405,1.0,3.4,0.4
+Validation,0.377,0.364,0.786,0,0
+Test,0.387,0.368,0.846,0.1,0

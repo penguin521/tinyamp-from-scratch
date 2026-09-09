@@ -1,0 +1,63 @@
+cff-version: 1.2.0
+message: "If you use, discuss, or build on TinyAMP, please cite this software and the APD dataset used by the project."
+title: "TinyAMP: Exploring data, model capacity, and generalization in a small peptide language model"
+type: software
+authors:
+  - family-names: "Xie"
+    given-names: "Steven"
+version: "2.0.0"
+abstract: >-
+  TinyAMP is a small decoder-only peptide language model implemented directly
+  in PyTorch and trained from random initialization on natural antimicrobial
+  peptide sequences. The project studies sequence context, similarity-aware
+  train/test splitting, model-capacity scaling, overfitting, dropout,
+  training-data scaling, repeated-seed variability, and generated-sequence
+  similarity and diversity.
+keywords:
+  - antimicrobial peptides
+  - peptide language model
+  - transformer
+  - PyTorch
+  - bioinformatics
+  - computational biology
+  - sequence modeling
+  - autoregressive model
+references:
+  - type: article
+    title: "APD6: the antimicrobial peptide database is expanded to promote research and development by deploying an unprecedented information pipeline"
+    authors:
+      - family-names: "Wang"
+        given-names: "Guangshun"
+      - family-names: "Schmidt"
+        given-names: "Cindy"
+      - family-names: "Li"
+        given-names: "Xia"
+      - family-names: "Wang"
+        given-names: "Zhe"
+    journal: "Nucleic Acids Research"
+    year: 2026
+    volume: "54"
+    issue: "D1"
+    start: "D363"
+    end: "D374"
+    doi: "10.1093/nar/gkaf860"
+  - type: article
+    title: "Attention Is All You Need"
+    authors:
+      - family-names: "Vaswani"
+        given-names: "Ashish"
+      - family-names: "Shazeer"
+        given-names: "Noam"
+      - family-names: "Parmar"
+        given-names: "Niki"
+      - family-names: "Uszkoreit"
+        given-names: "Jakob"
+      - family-names: "Jones"
+        given-names: "Llion"
+      - family-names: "Gomez"
+        given-names: "Aidan N."
+      - family-names: "Kaiser"
+        given-names: "Lukasz"
+      - family-names: "Polosukhin"
+        given-names: "Illia"
+    year: 2017

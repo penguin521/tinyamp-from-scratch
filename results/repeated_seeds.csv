@@ -1,0 +1,7 @@
+model,seed,best_step,test_loss,test_perplexity
+Small,42,2500,2.5263,12.51
+Small,123,2999,2.5459,12.76
+Small,2026,2000,2.5481,12.78
+Medium,42,750,2.5369,12.64
+Medium,123,1000,2.5485,12.79
+Medium,2026,1000,2.521,12.44
